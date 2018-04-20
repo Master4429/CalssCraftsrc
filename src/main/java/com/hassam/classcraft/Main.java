@@ -2,6 +2,7 @@ package com.hassam.classcraft;
 
 import com.hassam.classcraft.util.Reference;
 import com.hassam.classcraft.init.CommandInit;
+import com.hassam.classcraft.init.ItemInit;
 import com.hassam.classcraft.proxy.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -24,7 +25,7 @@ public class Main {
 	public static final CreativeTabs tabCC = new CreativeTabs("ClassCraft") {
 		@Override
 		public ItemStack getTabIconItem() {
-			return Items.DIAMOND_SWORD.getDefaultInstance();
+			return ItemInit.CIRCUIT.getDefaultInstance();
 		}
 	};
 	
