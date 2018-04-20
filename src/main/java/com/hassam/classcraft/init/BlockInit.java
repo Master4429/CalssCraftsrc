@@ -15,4 +15,7 @@ public class BlockInit {
 	public static final Block MOTHERBOARD = new BlockBase("motherboard", Material.ROCK);
 	public static final Block TREE_COPPER = new BlockBase("tree_copper", Material.IRON);
 	public static final Block LEAVES_BINARY = new BlockBase("leaves_binary", Material.LEAVES);
+	public static final Block INFECTED_MOTHERBOARD = new BlockBase("infected_motherboard", Material.ROCK);
+	public static final Block BASEBOARD = new BlockBase("baseboard", Material.ROCK);
+	public static final Block BLOCK_VIRUS = new BlockBase("block_virus", Material.ROCK);
 }
