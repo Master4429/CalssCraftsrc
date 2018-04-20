@@ -605,7 +605,7 @@ public class GuiCustomMainMenu extends GuiScreen
         GlStateManager.popMatrix();*/
 
         this.mc.getTextureManager().bindTexture(LOGO_TEXTURE);
-        drawModalRectWithCustomSizedTexture(j + 62, 20, 0.0F, 0.0F, 150, 72, 150.0F, 72.0F);
+        drawModalRectWithCustomSizedTexture(j + 24, 0, 0.0F, 0.0F, 225, 108, 225.0F, 108.0F);
         
         
         String s = "Minecraft 1.12.2";
