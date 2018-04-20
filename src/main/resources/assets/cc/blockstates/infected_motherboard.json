@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "cc:infected_motherboard" }
+  }
+}

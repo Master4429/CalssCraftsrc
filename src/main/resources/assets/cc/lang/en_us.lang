@@ -7,3 +7,10 @@ item.capacitor.name=Capacitor
 item.copperwire.name=Copper Wire
 item.microchip.name=Microchip
 
+tile.infected_motherboard.name=Infected Motherboard
+tile.baseboard.name=Baseboard
+tile.ore_silicon.name=Silicon Ore
+tile.leaves_binary.name=Binary Leaves
+tile.block_virus.name=Virus Block
+tile.motherboard.name=Motherboard
+tile.log_copper.name=Copper Log

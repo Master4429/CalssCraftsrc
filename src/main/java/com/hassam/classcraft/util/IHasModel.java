@@ -1,5 +1,7 @@
 package com.hassam.classcraft.util;
 
+import net.minecraft.item.Item;
+
 public interface IHasModel {
-	public void registerModels();
+	void registerItemModel(Item item);
 }

@@ -12,19 +12,23 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block implements IHasModel {
-	public BlockBase(String Name, Material material)
+	
+	protected String name;
+	
+	public BlockBase(String name, Material material)
 	{
 		super(material);
-		setUnlocalizedName(Name);
-		setRegistryName(Name);
+		setUnlocalizedName(name);
+		setRegistryName(name);
 		setCreativeTab(Main.tabCC);
+		this.name = name;
 
 		BlockInit.BLOCKS.add(this);
 	}
 
 	@Override
-	public void registerModels()
-	{
-		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+	public void registerItemModel(Item item) {
+		Main.proxy.registerItemRenderer(item, 0, name);
 	}
+	
 }
