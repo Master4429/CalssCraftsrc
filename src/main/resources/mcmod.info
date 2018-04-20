@@ -1,0 +1,24 @@
+
+    "modid": "classcraft",
+
+    "name": "ClassCraft",
+
+    "description": "The Initial Build of ClassCraft (Name Pending)",
+
+    "version": "0.0.1Alpha",
+
+    "mcversion": "1.12.2",
+
+    "url": "",
+
+    "updateUrl": "",
+
+    "authorList": ["Riys Hassam (Master4429), Bjorn Ironside, Wil Cox (RapidFire747), TheCallunxz"],
+
+    "credits": "The ClassCraftTeam",
+
+    "logoFile": "classcraft.png",
+
+    "screenshots": [],
+
+    "dependencies": []
