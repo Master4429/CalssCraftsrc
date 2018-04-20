@@ -1,9 +1,9 @@
-itemGroup.ClassCraft=Class Craft
+itemGroup.ClassCraft=§e§kS§r§6Class Craft§e§kS
 
 item.silicon.name=Silicon
-item.Circuit.name=Circuit
+item.circuit.name=Circuit
 item.battery.name=Battery
 item.capacitor.name=Capacitor
-item.copperwire.name=Copperwire
+item.copperwire.name=Copper Wire
 item.microchip.name=Microchip
 
