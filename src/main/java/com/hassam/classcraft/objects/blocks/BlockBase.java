@@ -17,7 +17,7 @@ public class BlockBase extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(Name);
 		setRegistryName(Name);
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(Main.tabCC);
 
 		BlockInit.BLOCKS.add(this);
 	}

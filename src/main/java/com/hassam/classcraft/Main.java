@@ -3,6 +3,10 @@ package com.hassam.classcraft;
 import com.hassam.classcraft.util.Reference;
 import com.hassam.classcraft.init.CommandInit;
 import com.hassam.classcraft.proxy.CommonProxy;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -16,6 +20,13 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 public class Main {
 	@Instance(Reference.MODID)
 	public static Main instance;
+	
+	public static final CreativeTabs tabCC = new CreativeTabs("ClassCraft") {
+		@Override
+		public ItemStack getTabIconItem() {
+			return Items.DIAMOND_SWORD.getDefaultInstance();
+		}
+	};
 	
 	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
 	public static CommonProxy proxy;

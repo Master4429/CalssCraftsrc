@@ -1,6 +1,9 @@
-item.silicon=Silicon
-item.Circuit=Circuit
-item.battery=Battery
-item.capacitor=Capacitor
-item.copperwire=Copperwire
-item.microchip=Microchip
+itemGroup.ClassCraft=Class Craft
+
+item.silicon.name=Silicon
+item.Circuit.name=Circuit
+item.battery.name=Battery
+item.capacitor.name=Capacitor
+item.copperwire.name=Copperwire
+item.microchip.name=Microchip
+
