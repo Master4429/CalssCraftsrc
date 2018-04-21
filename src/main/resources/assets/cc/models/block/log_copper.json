@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cc:blocks/log_copper"
-  }
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "cc:blocks/log_copper_top",
+        "side": "cc:blocks/log_copper"
+    }
 }
